@@ -7,7 +7,6 @@ def test_zero() -> None:
     assert get_coin_combination(0) == [0, 0, 0, 0]
 
 
-# class TestGetCoinCombination:
 @pytest.mark.parametrize(
     "input_,output_",
     [
