@@ -14,7 +14,7 @@ def test_zero() -> None:
         (75, [0, 0, 0, 3]),
         (100, [0, 0, 0, 4]),
         (250, [0, 0, 0, 10])
-     ]
+    ]
 )
 def test_only_quarters(
         input_: int,
